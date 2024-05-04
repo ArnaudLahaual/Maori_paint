@@ -30,9 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/react", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:11.11.4"],\
             ["@emotion/styled", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:11.11.5"],\
-            ["@mui/icons-material", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:5.15.16"],\
             ["@mui/material", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:5.15.16"],\
-            ["@mui/styled-engine-sc", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:6.0.0-alpha.22"],\
             ["@reduxjs/toolkit", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:2.2.3"],\
             ["@types/react", "npm:18.3.1"],\
             ["@types/react-dom", "npm:18.3.0"],\
@@ -43,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:0.4.6"],\
             ["react", "npm:18.3.1"],\
             ["react-dom", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:18.3.1"],\
+            ["react-icons", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:5.2.0"],\
             ["react-redux", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:9.1.2"],\
             ["react-router-dom", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:6.23.0"],\
             ["sass", "npm:1.76.0"],\
@@ -1064,33 +1063,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["@mui/icons-material", [\
-        ["npm:5.15.16", {\
-          "packageLocation": "./.yarn/cache/@mui-icons-material-npm-5.15.16-1c74cb4c27-5342889e35.zip/node_modules/@mui/icons-material/",\
-          "packageDependencies": [\
-            ["@mui/icons-material", "npm:5.15.16"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:5.15.16", {\
-          "packageLocation": "./.yarn/__virtual__/@mui-icons-material-virtual-1b3bba439b/0/cache/@mui-icons-material-npm-5.15.16-1c74cb4c27-5342889e35.zip/node_modules/@mui/icons-material/",\
-          "packageDependencies": [\
-            ["@mui/icons-material", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:5.15.16"],\
-            ["@babel/runtime", "npm:7.24.5"],\
-            ["@mui/material", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:5.15.16"],\
-            ["@types/mui__material", null],\
-            ["@types/react", "npm:18.3.1"],\
-            ["react", "npm:18.3.1"]\
-          ],\
-          "packagePeers": [\
-            "@mui/material",\
-            "@types/mui__material",\
-            "@types/react",\
-            "react"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["@mui/material", [\
         ["npm:5.15.16", {\
           "packageLocation": "./.yarn/cache/@mui-material-npm-5.15.16-13c7d57781-360c8f5701.zip/node_modules/@mui/material/",\
@@ -1192,32 +1164,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/emotion__styled",\
             "@types/react",\
             "react"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@mui/styled-engine-sc", [\
-        ["npm:6.0.0-alpha.22", {\
-          "packageLocation": "./.yarn/cache/@mui-styled-engine-sc-npm-6.0.0-alpha.22-7d670c121c-4749907ff9.zip/node_modules/@mui/styled-engine-sc/",\
-          "packageDependencies": [\
-            ["@mui/styled-engine-sc", "npm:6.0.0-alpha.22"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:6.0.0-alpha.22", {\
-          "packageLocation": "./.yarn/__virtual__/@mui-styled-engine-sc-virtual-631ce800ff/0/cache/@mui-styled-engine-sc-npm-6.0.0-alpha.22-7d670c121c-4749907ff9.zip/node_modules/@mui/styled-engine-sc/",\
-          "packageDependencies": [\
-            ["@mui/styled-engine-sc", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:6.0.0-alpha.22"],\
-            ["@babel/runtime", "npm:7.24.5"],\
-            ["@types/styled-components", null],\
-            ["csstype", "npm:3.1.3"],\
-            ["hoist-non-react-statics", "npm:3.3.2"],\
-            ["prop-types", "npm:15.8.1"],\
-            ["styled-components", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:6.1.9"]\
-          ],\
-          "packagePeers": [\
-            "@types/styled-components",\
-            "styled-components"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3993,9 +3939,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["maori_paint", "workspace:."],\
             ["@emotion/react", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:11.11.4"],\
             ["@emotion/styled", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:11.11.5"],\
-            ["@mui/icons-material", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:5.15.16"],\
             ["@mui/material", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:5.15.16"],\
-            ["@mui/styled-engine-sc", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:6.0.0-alpha.22"],\
             ["@reduxjs/toolkit", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:2.2.3"],\
             ["@types/react", "npm:18.3.1"],\
             ["@types/react-dom", "npm:18.3.0"],\
@@ -4006,6 +3950,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:0.4.6"],\
             ["react", "npm:18.3.1"],\
             ["react-dom", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:18.3.1"],\
+            ["react-icons", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:5.2.0"],\
             ["react-redux", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:9.1.2"],\
             ["react-router-dom", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:6.23.0"],\
             ["sass", "npm:1.76.0"],\
@@ -4586,6 +4531,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.3.1"],\
             ["scheduler", "npm:0.23.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-icons", [\
+        ["npm:5.2.0", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-5.2.0-a5a82320b5-bb5201994f.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:5.2.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:5.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-82f040f37c/0/cache/react-icons-npm-5.2.0-a5a82320b5-bb5201994f.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:62962df355102409eb2aecc735623d8cc058017a0c162c472d2be1819f98c59f9cd967df8d18fac25be8297fa17ba5443b64b906d009a170e0e76a63bce78938#npm:5.2.0"],\
+            ["@types/react", "npm:18.3.1"],\
+            ["react", "npm:18.3.1"]\
           ],\
           "packagePeers": [\
             "@types/react",\

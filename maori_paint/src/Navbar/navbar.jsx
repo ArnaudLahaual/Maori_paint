@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.scss";
 import logo from "../assets/logo_maori.png";
+import { IoMdLogIn } from "react-icons/io";
 
 function Navbar() {
   return (
@@ -25,7 +26,8 @@ function Navbar() {
 
       <div className="log">
         <p>Se connecter</p>
-
+        <IoMdLogIn size={24}
+        color="black"/>
       </div>
     </nav>
   );
