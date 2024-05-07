@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Navbar/navbar';
+import Footer from './Footer/footer';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <Navbar />
-    </div>
+      <Footer />
+    </React.Fragment>
   );
 }
 

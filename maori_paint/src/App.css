@@ -1,8 +1,14 @@
+.app {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 #root {
-  max-width: 1280px;
+  max-width: 100%; /* Ajustez la largeur maximale à 100% */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  padding: 10rem 0;
 }
 
 .logo {

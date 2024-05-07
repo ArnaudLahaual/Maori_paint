@@ -1,0 +1,21 @@
+.footer {
+    position: relative; /* Utilisez une position relative */
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: white;
+    min-width: 280px;
+    flex-direction: row;
+    align-items: center;
+    bottom: 0; /* Positionne le footer au bas de son conteneur */
+  }
+  
+
+.footer_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
