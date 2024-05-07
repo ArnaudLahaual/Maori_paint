@@ -15,11 +15,11 @@
   min-height: 100vh;
 }
 
-
 body {
-  /* margin: 0 200px; Ajoute des marges de 20px à gauche et à droite */
+  margin: 0;
   display: flex;
-  place-items: center;
-  max-width: 100vw;
+  flex-direction: column;
   min-height: 100vh;
-  background: linear-gradient(90deg, #ffffff, #808080, #000000); /* Dégradé de blanc à gris à noir */}
+  background: linear-gradient(90deg, #ffffff, #808080, #000000);
+  overflow: auto; /* Activer le défilement */
+}
